@@ -11,7 +11,11 @@ public class Main
 		list.add(7);
 		list.add(6);
 		System.out.println(list);
+		// Ascending order
 		Collections.sort(list);
+		System.out.println(list);
+		// Descending order
+		Collections.sort(list, Collections.reverseOrder());
 		System.out.println(list);
 	}
 }
@@ -19,4 +23,5 @@ public class Main
 /* Output
   [2, 5, 8, 9, 7, 6]
 [2, 5, 6, 7, 8, 9]
+[9, 8, 7, 6, 5, 2]
 */
